@@ -47,12 +47,12 @@ body {
     border: 2px solid white;
     font-family: 'Lucida Sans', sans-serif;
     font-size: 40px;
-    cursor: pointer;
 }
 
-.box:hover {
+.box-hover:hover {
     background-color: rgba(0, 7, 102, 0.429);
     transition: background-color 0.5s ease;
+    cursor: pointer;
 }
 
 .left {
@@ -73,8 +73,6 @@ body {
 
 #turn {
     text-align: center;
-    width: 20vh;
-    height: 5vh;
     border-radius: 5px;
     background: rgb(33, 33, 33);
     padding: 10px;
